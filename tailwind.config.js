@@ -4,7 +4,11 @@ export default {
     "./index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: ['inter', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }

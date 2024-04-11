@@ -7,35 +7,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Social Links Profile</title>
 </head>
-<!-- colors
-  black #141414
-  dark grey #1F1F1F
-  grey #333333
-  white #FFFFFF
-  neon green #C4F82A
-  -->
 
-<body class="bg-[#141414]">
+<body class="bg-[#141414] font-custom">
   <!-- section -->
   <section class="flex items-center justify-center h-screen text-white">
     <!-- box -->
-    <div class="bg-[#1F1F1F] w-96 p-10 rounded-xl flex flex-col justify-between items-center">
+    <div class="bg-[#1F1F1F] w-96 p-10 max-sm:p-6 rounded-xl flex flex-col justify-between items-center">
       <img class="rounded-full max-h-20" src="./src/assets/img/avatar-jessica.jpeg" alt="">
       <div class="flex flex-col justify-between my-6">
         <h1 class="text-2xl mb-1">Jessica Randal</h1>
-        <h2 class="text-sm font-bold text-[#C4F82A]">London, United Kingdom</h2>
+        <h2 class="text-sm font-bold text-[#C4F82A] animate-pulse">London, United Kingdom</h2>
       </div>
+      <p class="mb-6 text-sm">"Front-end developer and avid reader"</p>
       <ul class="flex flex-col justify-between items-center w-full text-center font-bold text-sm">
-        <li class="bg-[#333333] p-3 rounded-md mt-4 w-full"><a href="#">GitHub</a></li>
-        <li class="bg-[#333333] p-3 rounded-md mt-4 w-full">Frontend Mentor</li>
-        <li class="bg-[#333333] p-3 rounded-md mt-4 w-full">LinkedIn</li>
-        <li class="bg-[#333333] p-3 rounded-md mt-4 w-full">Twitter</li>
-        <li class="bg-[#333333] p-3 rounded-md mt-4 w-full">Instagram</li>
+        <li class="w-full">
+          <a class="bg-[#333333] block p-3 rounded-md mt-4 hover:bg-[#C4F82A] hover:text-black hover:animate-pulse"
+            target="_blank" href="https://github.com/">GitHub</a>
+        </li>
+        <li class="w-full">
+          <a class="bg-[#333333] block p-3 rounded-md mt-4 hover:bg-[#C4F82A] hover:text-black hover:animate-pulse" target="_blank"
+            href="https://www.frontendmentor.io/">Frontend Mentor</a>
+        </li>
+        <li class="w-full">
+          <a class="bg-[#333333] block p-3 rounded-md mt-4 hover:bg-[#C4F82A] hover:text-black hover:animate-pulse" target="_blank"
+            href="https://pl.linkedin.com/">LinkedIn</a>
+        </li>
+        <li class="w-full">
+          <a class="bg-[#333333] block p-3 rounded-md mt-4 hover:bg-[#C4F82A] hover:text-black hover:animate-pulse" target="_blank"
+            href="https://twitter.com/">Twitter</a>
+        </li>
+        <li class="w-full">
+          <a class="bg-[#333333] block p-3 rounded-md mt-4 hover:bg-[#C4F82A] hover:text-black hover:animate-pulse" target="_blank"
+            href="https://instagram.com/">Instagram</a>
+        </li>
       </ul>
     </div>
   </section>
-
-
   <script type="module" src="/main.js"></script>
 </body>
 
